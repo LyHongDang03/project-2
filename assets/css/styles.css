@@ -263,3 +263,327 @@ a {
     font-weight: 700;
     margin-right: 10px;
 }
+
+/* Popular */
+
+.popular {
+    margin-top: 256px;
+}
+
+.popular .popular-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .popular-top_left .title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: -0.076rem;
+}
+
+.popular .popular-top_left .desc {
+    margin-top: 16px;
+    width: 458px;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #5f5b53;
+}
+
+.popular .popular-top_right {
+    display: flex;
+    gap: 18px;
+}
+
+.popular .popular-top_right .control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ffb900;
+    border-radius: 50%;
+    color: #ffb900;
+    background-color: #fff;
+}
+
+.popular .popular-top_right .control-btn:hover {
+    color: #fff;
+    background-color: #ffb900;
+}
+
+.popular .course-list {
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.popular .course-item {
+    border-radius: 12px;
+    border: 1px solid #e2dfda;
+}
+
+.popular .thumb {
+    width: calc(100% + 1px);
+    height: 278px;
+    margin: -1px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+.popular .course-list {
+    margin-top: 55px;
+}
+
+.popular .course-item:hover {
+    box-shadow: 0 18px 36px 0 rgba(0, 0, 0, 0.05);
+}
+
+.popular .info {
+    padding: 0 22px;
+}
+
+.popular .info .head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.popular .info .title {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.popular .info .desc {
+    color: #5f5b53;
+    font-family: Poppins;
+    width: 326px;
+    margin-top: 6px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+.popular .info .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding-bottom: 22px;
+}
+
+.popular .info .price {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.popular .info .foot .btn {
+    min-width: 118px;
+    min-height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: #171100;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.6rem;
+}
+
+.popular .info .foot .btn:hover {
+    background: #ffb900;
+}
+/* Philosophy */
+.philosophy {
+    margin-top: 200px;
+    background-color: #2e2100;
+}
+
+.philosophy .philosophy-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.philosophy .philosophy-left {
+    min-width: 160px;
+}
+
+.philosophy .philosophy-left .avatar {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.philosophy-left .title {
+    margin-top: 18px;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #f7f7f7;
+}
+
+.philosophy-left .desc {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+
+.philosophy-left .icon {
+    margin-top: 28px;
+}
+
+.philosophy-right .desc {
+    max-width: 740px;
+    margin-left: 30px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+/* achievements */
+
+.achievements {
+    margin-top: 200px;
+}
+
+.achievements .achievements-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.achievements-content .achievements-left {
+    display: flex;
+    gap: 0 30px;
+}
+
+.achievements-left .achievements-img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.achievements-left .achievements-img:first-child {
+    margin-top: 34px;
+}
+
+.achievements-right .title {
+    max-width: 470px;
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.8rem; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+
+.achievements-right .desc {
+    color: #5f5b53;
+    max-width: 458px;
+    font-family: Poppins;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem; /* 175% */
+}
+
+.achievements-right .btn {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8rem; /* 175% */
+    margin-top: 32px;
+    width: 137px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #ffb900;
+}
+
+/* orientation */
+.orientation {
+    margin-top: 200px;
+}
+
+.orientation .orientation-conten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orientation-left .title {
+    max-width: 570px;
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.8rem; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+
+.orientation-left .desc {
+    max-width: 570px;
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem; /* 175% */
+    margin-top: 16px;
+}
+
+.orientation-left .btn {
+    width: 137px;
+    height: 50px;
+    border-radius: 26px;
+    margin-top: 32px;
+    background: #ffb900;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8rem; /* 175% */
+}
+
+.orientation-right .orientation-img {
+    width: 470px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    object-fit: cover;
+}
